@@ -1,4 +1,4 @@
-dribbblemcr
+DribbbleMCR
 ===========
 
 Dribbble Mancester project page
