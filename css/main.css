@@ -5,7 +5,7 @@ body
 }
 #header
 {
-    background: rgba(0,0,0,0.6);
+    background: #646464;
     text-align: right;
     color: #fff;
     height: 50px;
@@ -141,4 +141,34 @@ ul
 .footer
 {
     padding: 20px;
+    font-size: 10px;
+    color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+.page
+{
+    width: auto;
+}
+#header
+{
+    text-align: center;
+    padding-right: 0px;
+}
+.bigtext
+{
+font-size: 45px;
+}
+.bigtext2
+{
+font-size: 25px;
+}
+ul
+{
+    width: 250px;
+}
+.page.padding
+{
+    padding: 10px;
+}
 }
