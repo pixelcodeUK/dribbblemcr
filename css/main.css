@@ -34,6 +34,21 @@ a:hover
 {
     color: #d9b300;
 }
+.nounderline a,.nounderline a:link,.nounderline a:hover
+{
+  color: #0080d9;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+  text-decoration: none;
+}
+.nounderline a:hover
+{
+    color: #d9b300;
+    text-decoration: none;
+}
 .page
 {
     width: 750px;
