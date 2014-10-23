@@ -49,6 +49,14 @@ a:hover
     color: #d9b300;
     text-decoration: none;
 }
+.bluetext
+{
+  color: #0080d9;
+}
+h1.highlight
+{
+  color: #d9b300;
+}
 .page
 {
     width: 750px;
@@ -58,6 +66,47 @@ a:hover
 .bigpage
 {
     height: 400px;
+}
+.wall
+{
+  height:110px;
+  margin-bottom:40px;
+  line-height: 110px;
+  background: #ffef6c;
+}
+.wall .bigtext
+{
+  padding: 0px;
+}
+.wallosponsors a
+{
+  width:200px;
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+    -webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+}
+.page.wallosponsors
+{
+  width: 670px;
+}
+.clear
+{
+  clear: both;
+  float: none;
+}
+.wallosponsorbox
+{
+  border: 1px dashed #eee;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
 }
 .bigpage.main
 {
@@ -165,6 +214,10 @@ ul
 {
     width: auto;
 }
+.page.wallosponsors
+{
+  width: 450px;
+}
 #header
 {
     text-align: center;
@@ -185,5 +238,15 @@ ul
 .page.padding
 {
     padding: 10px;
+}
+}
+@media screen and (max-width: 470px) {
+.page.wallosponsors
+{
+  width: 230px;
+}
+.wallosponsors a
+{
+  margin-right: 0px;
 }
 }
